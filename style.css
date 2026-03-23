@@ -1,6 +1,6 @@
 .carousel {
   margin: 100px auto;
-  width: 90%;
+  width: 50%;
   border: 5px solid rgb(156, 12, 1);
   display: flex;
   overflow-x: auto;
@@ -15,9 +15,10 @@
         align-items: center;
         justify-content: center;
         gap: 1em;
-        animation: spin 5s infinite linear;
+        animation: spin 25s infinite linear;
         padding-right: 1em;
-        }
+        padding-left: 1em;
+    }
         
         .card{
             Flex: 0 0 5em;
@@ -53,7 +54,7 @@ grid-template-columns: auto auto auto;
         text-align: center;
     }
 
-    nav { background-color: rgb(156, 12, 1); padding: 40px;}
+    nav { background-color: rgb(100, 99, 102); padding: 40px;}
 
     main { background-color: rgb(100, 99, 102);}
 
