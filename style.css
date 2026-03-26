@@ -1,12 +1,13 @@
 .carousel {
   margin: 100px auto;
-  width: 50%;
+  width: 100%;
   border: 5px solid rgb(156, 12, 1);
   display: flex;
   overflow-x: auto;
-  }
+  gap: 1em;
+}
 
-  .carousel webkit-scrollbar {
+  .carousel::-webkit-scrollbar {
     display: none;
     }
    
@@ -22,17 +23,17 @@
         
         .card{
             Flex: 0 0 5em;
-            height: 5em;
+            height: 10em;
             padding: 1em;
-            background: cornflowerblue;
+            background: rgb(100, 99, 102);
             font-size: 3rem;
             border-radius: 2em;
             text-align: center;
             align-content: center;
             }
             @keyframes spin {
-            From {translate: 0;}
-            To {translate: -100%;}
+            from {translate: 0;}
+            to {translate: -100%;}
             }
             
 .container {
@@ -75,4 +76,9 @@ grid-template-columns: auto auto auto;
         scale: 2;
         }
         
+
+    .box1 {
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
     
