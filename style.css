@@ -83,4 +83,7 @@ grid-template-columns: auto auto auto;
         grid-column-end: 3;
     }
 
-    
+    h1 {
+        color: rgb(93, 57, 57);
+        font-family: F1 Turbo, F1 Turbo;
+    }
