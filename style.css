@@ -88,6 +88,16 @@ grid-template-columns: auto auto auto;
         font-family: Georgia, 'Times New Roman', Times, serif;
     }
 
-    p{
-        font-family: ;
+    h2 {
+        color: rgba(188, 184, 184, 0.539);
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+h3 {
+        color: rgba(188, 184, 184, 0.539);
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+   p {
+        color: rgba(152, 150, 150, 0.539);
+        font-family: Georgia, 'Times New Roman', Times, serif;
     }
