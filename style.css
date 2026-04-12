@@ -85,7 +85,7 @@ grid-template-columns: auto auto auto;
 
     h1 {
         color: rgba(188, 184, 184, 0.539);
-        font-family: sans-serif;
+        font-family: 'Arial Narrow Bold', sans-serif;
     }
 
     p{
