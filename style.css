@@ -84,6 +84,10 @@ grid-template-columns: auto auto auto;
     }
 
     h1 {
-        color: rgb(93, 57, 57);
-        font-family: bambi;
+        color: rgba(109, 80, 80, 0.539);
+        font-family: sans-serif;
+    }
+
+    p{
+        font-family: ;
     }
