@@ -16,7 +16,7 @@
         align-items: center;
         justify-content: center;
         gap: 1em;
-        animation: spin 25s infinite linear;
+        animation: spin 45s infinite linear;
         padding-right: 1em;
         padding-left: 1em;
     }
